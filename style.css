@@ -5,13 +5,18 @@
 /* aligns entire page to center */
 * {
   text-align: center;
+  margin: 10px;
 }
 
-/* alings all p, li, ol, and ul elements to the left with padding on the right and left */
-* > p, li, ol, ul {
+/* adds padding on left and right of all p elements */
+* > p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* alings all p, li, ol, and ul elements to the left */
+p, li, ol, ul {
   text-align: left;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 /* sets the background color of header and footer to hot pink and font color to white, center-aligned text, and padding top/bottom */
@@ -21,6 +26,10 @@ header, footer {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+footer {
+  height: 60px;
 }
 
 /* the next few properties apply to headings */
@@ -45,6 +54,9 @@ a:visited {
   color: lightgreen;
 }
 
+a:hover {
+  color: darkviolet;
+}
 
 
 
