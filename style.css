@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+/* aligns entire page to center */
+* {
+  text-align: center;
+}
+
+/* alings all p, li, ol, and ul elements to the left with padding on the right and left */
+* > p, li, ol, ul {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* sets the background color of header and footer to hot pink and font color to white, center-aligned text, and padding top/bottom */
+header, footer {
+  background-color: hotpink;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* the next few properties apply to headings */
+h1 {
+  font-family: Futura;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h2, h3 {
+  font-family: sans-serif;
+}
+
+/* pseudo-classes to style Github and LinkedIn links in Contact Me section */
+a:default {
+  color: hotpink;
+}
+
+a:visited {
+  color: lightgreen;
+}
+
+
+
+
