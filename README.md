@@ -1,3 +1,3 @@
-# portfolio-website
+# Portfolio Website
 
-First edition of portfolio website, created under the Thinkful Engineering Immersion prep course.
+First edition of portfolio website, created under parameters set by the Thinkful Engineering Immersion prep course.
